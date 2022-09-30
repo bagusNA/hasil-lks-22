@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.buttons > * {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    transition: 100ms;
+}
+
+.buttons > *:hover {
+    filter: brightness(.9);
+    cursor: pointer;
+}
+
+.buttons #start {
+    background-color: dodgerblue;
+}
+
+.buttons #stop {
+    background-color: orangered;
+}
+
+.buttons #restart {
+    background-color: orange;
+}
+
+#timer {
+    margin-top: 1rem;
+    padding: .75rem 1rem;
+    border: 1px solid black;
+    font-size: 5rem;
+}
