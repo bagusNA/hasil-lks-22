@@ -4,9 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Server: commit 11">
-      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/DetailFormView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/DetailFormView.vue" afterDir="false" />
-    </list>
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Server: final commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
-      <workItem from="1666660139683" duration="18583000" />
+      <workItem from="1666660139683" duration="18978000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -189,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666678924579</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Server: final commit">
+      <created>1666679294496</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666679294496</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Server: final commit">
+      <created>1666679404214</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666679404214</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +234,8 @@
     <MESSAGE value="Server: commit 9" />
     <MESSAGE value="Server: commit 10" />
     <MESSAGE value="Server: commit 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server: commit 11" />
+    <MESSAGE value="Server: final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server: final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
