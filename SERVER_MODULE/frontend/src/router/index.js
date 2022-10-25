@@ -21,7 +21,7 @@ const router = createRouter({
       component: () => import('../views/Form/CreateFormView.vue')
     },
     {
-      path: '/form/detail/:id',
+      path: '/form/detail/:slug',
       name: 'form-detail',
       component: () => import('../views/Form/DetailFormView.vue')
     },

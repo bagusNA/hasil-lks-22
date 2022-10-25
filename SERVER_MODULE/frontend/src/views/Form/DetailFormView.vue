@@ -4,32 +4,42 @@ import {useRoute} from "vue-router";
 import {authGet} from "../../helpers/authGet";
 
 const route = useRoute();
-const url = inject('endpoint') + '/api/v1/forms/' + route.params.id
+const url = inject('endpoint') + '/api/v1/forms/' + route.params.slug
 
-console.log(url)
-const detail = ref(null);
+const form = ref(null);
+const activeTab = ref(0);
+const shareLink = `${location.protocol}//${location.hostname}/response/${route.params.slug}`;
+
+const addFieldAction = () => {
+
+}
+
 
 onBeforeMount(async () => {
   const res = await authGet(url);
+
+  form.value = res.form;
 });
 
 </script>
 
 <template>
-  <main>
+  <main v-if="form">
     <div class="hero py-5 bg-light">
       <div class="container text-center">
         <h2 class="mb-2">
-          Biodata - Web Tech Members
+          {{ form.name }}
         </h2>
         <div class="text-muted mb-4">
-          To save web tech members biodata
+          {{ form.description }}
         </div>
         <div>
           <div>
             <small>For user domains</small>
           </div>
-          <small><span class="text-primary">webtech.id, webtech.org</span></small>
+          <small><span class="text-primary">
+
+          </span></small>
         </div>
       </div>
     </div>
@@ -40,7 +50,7 @@ onBeforeMount(async () => {
         <div class="row justify-content-center ">
           <div class="col-lg-5 col-md-6">
             <div class="input-group mb-5">
-              <input type="text" class="form-control form-link" readonly value="http://localhost:8080/forms/biodata"/>
+              <input type="text" class="form-control form-link" readonly :value="shareLink"/>
               <a href="submit-form.html" class="btn btn-primary">Copy</a>
             </div>
 

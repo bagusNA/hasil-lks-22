@@ -31,7 +31,7 @@ onBeforeMount(async () => {
 
         <template v-for="form in forms">
           <RouterLink
-                      :to="`/form/detail/${form.id}`"
+                      :to="`/form/detail/${form.slug}`"
                       class="card card-default mb-3"
           >
             <div class="card-body">
