@@ -1,4 +1,28 @@
 <script setup>
+import {inject, reactive} from "vue";
+import {store} from "../store/store";
+
+const url = inject('endpoint') + '/api/v1/auth/login';
+
+const form = reactive({
+  email: 'user1@webtech.id',
+  password: 'password1'
+});
+
+const loginAction = async () => {
+  const res = await fetch(url, {
+    method: 'POST',
+    body: JSON.stringify({
+      email: form.email,
+      password: form.password
+    })
+  });
+
+  const data = await res.json();
+  store.setUser(data.user);
+  store.setToken(data.user.token);
+}
+
 </script>
 
 <template>
@@ -12,17 +36,19 @@
               <div class="card-body">
                 <h3 class="mb-3">Login</h3>
 
-                <form action="#">
+                <form action="#" @submit.prevent="loginAction">
                   <!-- s: input -->
                   <div class="form-group my-3">
                     <label for="email" class="mb-1 text-muted">Email Address</label>
-                    <input type="email" id="email" name="email" value="" class="form-control" autofocus />
+                    <input v-model="form.email"
+                        type="email" id="email" name="email" class="form-control" autofocus />
                   </div>
 
                   <!-- s: input -->
                   <div class="form-group my-3">
                     <label for="password" class="mb-1 text-muted">Password</label>
-                    <input type="password" id="password" name="password" value="" class="form-control" />
+                    <input v-model="form.password"
+                        type="password" id="password" name="password" class="form-control" />
                   </div>
 
                   <div class="mt-4">

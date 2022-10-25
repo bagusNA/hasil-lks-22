@@ -1,12 +1,12 @@
 <script setup>
-import {RouterLink, RouterView, useRouter} from 'vue-router';
+import {RouterLink, RouterView, useRoute} from 'vue-router';
 
-const router = useRouter();
+const router = useRoute();
 
 </script>
 
 <template>
-  <nav v-if="router.currentRoute.value !== 'home'"
+  <nav v-if="router.name !== 'login'"
       class="navbar navbar-expand-lg sticky-top bg-primary navbar-dark">
     <div class="container">
       <RouterLink to="/logout">Formify</RouterLink>

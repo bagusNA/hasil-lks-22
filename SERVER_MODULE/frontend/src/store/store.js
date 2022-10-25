@@ -6,6 +6,7 @@ export const store = reactive({
 
     setUser(user) {
         this.user = user;
+        // delete this.user.token;
     },
 
     setToken(token) {
