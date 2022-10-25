@@ -9,7 +9,7 @@ store.getFromLocal();
 <template>
   <Navbar />
 
-  <RouterView />
+  <router-view />
 </template>
 
 <style scoped>

@@ -4,12 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Server: commit 8">
-      <change afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/DetailFormView.vue" afterDir="false" />
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Server: commit 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/CreateForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/CreateFormView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/CreateFormView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/CreateFormView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/DetailFormView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/DetailFormView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
-      <workItem from="1666660139683" duration="16387000" />
+      <workItem from="1666660139683" duration="17673000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666676131207</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Server: commit 9">
+      <created>1666677137974</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666677137974</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +210,8 @@
     <MESSAGE value="Server: commit 6" />
     <MESSAGE value="Server: commit 7" />
     <MESSAGE value="Server: commit 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server: commit 8" />
+    <MESSAGE value="Server: commit 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server: commit 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
