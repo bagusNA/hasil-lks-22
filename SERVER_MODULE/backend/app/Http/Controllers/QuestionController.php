@@ -12,6 +12,9 @@ use Illuminate\Validation\Rule;
 class QuestionController extends Controller
 {
     public function create(Request $request, Form $form) {
+        if ($form->creator_id !== $request->user()->id)
+            return $this->forbiddenRes();
+
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'choice_type' => [
@@ -39,9 +42,6 @@ class QuestionController extends Controller
 
         $data = $validator->getData();
 
-        if ($form->creator_id !== $request->user()->id)
-            return $this->forbiddenRes();
-
         $data['choices'] = implode(',', $data['choices']);
 
         $question = Question::create([
@@ -58,7 +58,14 @@ class QuestionController extends Controller
         ]);
     }
 
-    public function remove(Request $request, Form $form) {
+    public function delete(Request $request, Form $form, Question $question) {
+        if ($form->creator_id !== $request->user()->id)
+            return $this->forbiddenRes();
 
+        $question->delete();
+
+        return $this->successRes([
+           'message' => 'Remove question success!'
+        ]);
     }
 }

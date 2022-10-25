@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\QuestionController;
+use App\Http\Controllers\ResponseController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -41,7 +42,28 @@ Route::prefix('/v1')->group(function () {
                 return response()->json([
                     'message' => 'Form not found'
                 ], 404);
-            });;
+            });
+
+            Route::delete('/forms/{form:slug}/questions/{question}', 'delete')->missing(function () {
+                return response()->json([
+                    'message' => 'Form not found'
+                ], 404);
+            });
         });
+
+        Route::controller(ResponseController::class)->group(function () {
+            Route::post('/forms/{form:slug}/responses', 'create')->missing(function () {
+                return response()->json([
+                    'message' => 'Form not found'
+                ], 404);
+            });
+
+            Route::get('/forms/{form:slug}/reponses', 'show')->missing(function () {
+                return response()->json([
+                    'message' => 'Form not found'
+                ], 404);
+            });
+        });
+
     });
 });
