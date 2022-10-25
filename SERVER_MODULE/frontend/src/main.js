@@ -8,6 +8,6 @@ import './assets/css/style.css'
 const app = createApp(App)
 
 app.use(router)
-app.provide('endpoint', 'http://127.0.0.1:8000')
+app.provide('endpoint', 'http://13.250.25.73/rest-low')
 
 app.mount('#app')

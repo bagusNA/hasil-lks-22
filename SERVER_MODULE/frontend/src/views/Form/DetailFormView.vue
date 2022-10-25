@@ -1,14 +1,19 @@
 <script setup>
-import {inject, onBeforeMount, ref} from "vue";
+import {inject, onBeforeMount, reactive, ref} from "vue";
 import {useRoute} from "vue-router";
 import {authGet} from "../../helpers/authGet";
 
 const route = useRoute();
 const url = inject('endpoint') + '/api/v1/forms/' + route.params.slug
+const shareLink = `${location.protocol}//${location.hostname}/response/${route.params.slug}`;
 
 const form = ref(null);
-const activeTab = ref(0);
-const shareLink = `${location.protocol}//${location.hostname}/response/${route.params.slug}`;
+const question = reactive({
+  name: null,
+  choice_type: null,
+  choices: [],
+  is_required: false
+});
 
 const addFieldAction = () => {
 
@@ -68,10 +73,13 @@ onBeforeMount(async () => {
         <div class="row justify-content-center">
           <div class="col-lg-5 col-md-6">
 
-            <div class="question-item  card card-default my-4">
+            <div v-for="question in form.questions"
+                class="question-item card card-default my-4"
+            >
               <div class="card-body">
                 <div class="form-group my-3">
-                  <input type="text" placeholder="Question" class="form-control" name="name" value="Name" disabled />
+                  <input
+                      type="text" placeholder="Question" class="form-control" name="name" value="Name" />
                 </div>
 
                 <div class="form-group my-3">
