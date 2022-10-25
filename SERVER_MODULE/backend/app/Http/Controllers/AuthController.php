@@ -45,7 +45,7 @@ class AuthController extends Controller
             return $this->unauthRes('Unauthenticated');
 
         $user = $token->tokenable();
-        $user->tokens()->delete();
+        $token->delete();
 
         return $this->successRes([
             'message' => 'Logout success!'

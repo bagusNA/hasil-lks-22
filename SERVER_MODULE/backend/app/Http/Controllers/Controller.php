@@ -20,4 +20,13 @@ class Controller extends BaseController
     public function successRes($data) {
         return response()->json($data, 200);
     }
+
+    public function invalidRes($errors) {
+        $data = [
+            'message' => 'Invalid field',
+            'errors' => $errors
+        ];
+
+        return response()->json($data);
+    }
 }

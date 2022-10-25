@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\FormController;
+use App\Models\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -15,13 +17,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//    return $request->user();
-//});
-
 Route::prefix('/v1')->group(function () {
     Route::prefix('/auth')->controller(AuthController::class)->group(function() {
         Route::post('/login', 'login');
         Route::post('/logout', 'logout');
+    });
+
+    Route::middleware('auth:sanctum')->group(function () {
+        Route::controller(FormController::class)->group(function () {
+            Route::get('/forms', 'show');
+            Route::post('/forms', 'create');
+
+//            Route::get('/forms/{form:slug}', 'detail');
+        });
+
+        Route::controller(Question::class)->group(function () {
+            Route::post('/forms/{form:slug}', 'create');
+        });
     });
 });
