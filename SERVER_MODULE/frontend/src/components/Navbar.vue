@@ -1,16 +1,19 @@
 <script setup>
-import {useRoute} from "vue-router";
+import {useRoute, useRouter} from "vue-router";
 import {authPost} from "../helpers/authPost";
 import {inject} from "vue";
 import {store} from "../store/store";
 
 const url = inject('endpoint') + '/api/v1/auth/logout';
 const route = useRoute();
+const router = useRouter();
 
 const logoutAction = async () => {
-  const data = await authPost(url);
+  await authPost(url);
 
   store.clearAll();
+  alert('Logout success!');
+  router.push({ name: 'login' });
 }
 </script>
 
@@ -18,7 +21,7 @@ const logoutAction = async () => {
   <nav v-if="route.name !== 'login'"
        class="navbar navbar-expand-lg sticky-top bg-primary navbar-dark">
     <div class="container">
-      <RouterLink to="/">Formify</RouterLink>
+      <RouterLink to="/" class="navbar-brand">Formify</RouterLink>
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" href="#">Administrator</a>

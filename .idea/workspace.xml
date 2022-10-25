@@ -4,16 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Server: commit 6">
-      <change afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/helpers/authPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/helpers/postFetch.js" afterDir="false" />
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Server: commit 7">
+      <change afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/helpers/authGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/Form/CreateForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/components/Navbar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/LoginView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SERVER_MODULE/frontend/src/views/LoginView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +63,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\helpers" />
+      <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\views\Form" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\views" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\assets" />
     </key>
@@ -78,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
-      <workItem from="1666660139683" duration="13849000" />
+      <workItem from="1666660139683" duration="15394000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666672281025</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Server: commit 7">
+      <created>1666674463005</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666674463005</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +191,8 @@
     <MESSAGE value="Server: commit 4" />
     <MESSAGE value="Server: commit 5" />
     <MESSAGE value="Server: commit 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server: commit 6" />
+    <MESSAGE value="Server: commit 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server: commit 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
