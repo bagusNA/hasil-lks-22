@@ -1,6 +1,6 @@
 <script setup>
 import {RouterLink} from 'vue-router';
-import {inject, onBeforeMount, onMounted, ref} from "vue";
+import {inject, onBeforeMount, ref} from "vue";
 import {authGet} from "../helpers/authGet";
 
 const url = inject('endpoint') + '/api/v1/forms';
@@ -9,14 +9,15 @@ const forms = ref(null);
 onBeforeMount(async () => {
  const res = await authGet(url);
   forms.value = res.forms;
-})
+});
+
 </script>
 
 <template>
   <main>
     <div class="hero py-5 bg-light">
       <div class="container">
-        <RouterLink :to="{ name: 'form/create' }"
+        <RouterLink :to="{ name: 'form-create' }"
           class="btn btn-primary"
         >
           Create Form
@@ -28,9 +29,9 @@ onBeforeMount(async () => {
       <div class="container">
         <h6 class="mb-3">List Form</h6>
 
-        <template v-if="forms !== []">
-          <RouterLink v-for="form in forms"
-                      to="/"
+        <template v-for="form in forms">
+          <RouterLink
+                      :to="`/form/detail/${form.id}`"
                       class="card card-default mb-3"
           >
             <div class="card-body">

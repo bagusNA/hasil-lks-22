@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import {store} from "../store/store";
+import {store} from "../store/store.js";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,11 +15,15 @@ const router = createRouter({
       name: 'login',
       component: () => import('../views/LoginView.vue')
     },
-      // Form
     {
       path: '/form/create',
-      name: 'form/create',
-      component: () => import('../views/Form/CreateForm.vue')
+      name: 'form-create',
+      component: () => import('../views/Form/CreateFormView.vue')
+    },
+    {
+      path: '/form/detail/:id',
+      name: 'form-detail',
+      component: () => import('../views/Form/DetailFormView.vue')
     },
   ]
 })
