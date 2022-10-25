@@ -29,4 +29,10 @@ class Controller extends BaseController
 
         return response()->json($data);
     }
+
+    public function forbiddenRes() {
+        return response()->json([
+            'message' => 'Forbidden access'
+        ], 403);
+    }
 }

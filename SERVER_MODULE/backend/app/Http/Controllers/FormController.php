@@ -51,7 +51,10 @@ class FormController extends Controller
     }
 
     public function detail(Request $request, Form $form) {
-        $form->load('question');
+        if ($form->creator_id !== $request->user()->id)
+            return $this->forbiddenRes();
+
+        $form->load('questions');
 
         return $this->successRes([
             'message' => 'Get form success!',

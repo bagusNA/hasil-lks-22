@@ -2,9 +2,10 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FormController;
-use App\Models\Question;
+use App\Http\Controllers\QuestionController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -28,11 +29,19 @@ Route::prefix('/v1')->group(function () {
             Route::get('/forms', 'show');
             Route::post('/forms', 'create');
 
-//            Route::get('/forms/{form:slug}', 'detail');
+            Route::get('/forms/{form:slug}', 'detail')->missing(function () {
+                return response()->json([
+                   'message' => 'Form not found'
+                ], 404);
+            });
         });
 
-        Route::controller(Question::class)->group(function () {
-            Route::post('/forms/{form:slug}', 'create');
+        Route::controller(QuestionController::class)->group(function () {
+            Route::post('/forms/{form:slug}/questions', 'create')->missing(function () {
+                return response()->json([
+                    'message' => 'Form not found'
+                ], 404);
+            });;
         });
     });
 });
