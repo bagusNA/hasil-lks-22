@@ -1,7 +1,10 @@
 <script setup>
 import {inject, reactive} from "vue";
 import {store} from "../store/store";
+import {postFetch} from "../helpers/postFetch";
+import {useRouter} from "vue-router";
 
+const router = useRouter();
 const url = inject('endpoint') + '/api/v1/auth/login';
 
 const form = reactive({
@@ -10,17 +13,16 @@ const form = reactive({
 });
 
 const loginAction = async () => {
-  const res = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify({
-      email: form.email,
-      password: form.password
-    })
+  const data = await postFetch(url, {
+    email: form.email,
+    password: form.password
   });
 
-  const data = await res.json();
+  store.setToken(data.user.accessToken);
   store.setUser(data.user);
-  store.setToken(data.user.token);
+
+  alert('Login success!');
+  await router.push({ name: 'home' });
 }
 
 </script>

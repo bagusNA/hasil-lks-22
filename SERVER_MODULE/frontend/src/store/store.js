@@ -6,23 +6,39 @@ export const store = reactive({
 
     setUser(user) {
         this.user = user;
-        // delete this.user.token;
+        delete this.user.accessToken;
+
+        localStorage.setItem('user', this.user);
     },
 
     setToken(token) {
         this.token = token;
+        localStorage.setItem('token', this.token);
     },
 
     getUserFromLocal() {
-        localStorage.getItem('user');
+        this.setUser(localStorage.getItem('user'));
     },
 
     getTokenFromLocal() {
-        localStorage.getItem('token');
+        this.setToken(localStorage.getItem('token'));
     },
 
     getFromLocal() {
         this.getTokenFromLocal();
         this.getUserFromLocal();
+    },
+
+    clearToken() {
+        this.token = null;
+    },
+
+    clearUser() {
+        this.user = null;
+    },
+
+    clearAll() {
+        this.clearToken();
+        this.clearUser();
     }
 });
