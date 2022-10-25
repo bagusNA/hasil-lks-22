@@ -58,7 +58,7 @@ Route::prefix('/v1')->group(function () {
                 ], 404);
             });
 
-            Route::get('/forms/{form:slug}/reponses', 'show')->missing(function () {
+            Route::get('/forms/{form:slug}/responses', 'show')->missing(function () {
                 return response()->json([
                     'message' => 'Form not found'
                 ], 404);

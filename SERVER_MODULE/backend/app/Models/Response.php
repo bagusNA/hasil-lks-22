@@ -10,6 +10,10 @@ class Response extends Model
     use HasFactory;
 
     protected $guarded = ['id'];
+    protected $hidden = [
+        'user_id',
+        'form_id'
+    ];
     public $timestamps = false;
 
     public function user() {
