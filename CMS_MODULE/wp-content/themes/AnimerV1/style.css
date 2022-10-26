@@ -1,0 +1,142 @@
+/*
+Theme Name: Animer V1
+Author: Bagus Nur A.
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 7.4
+License: GNU General Public License v3 or Later
+License URI: https://www.gnu.org/licenses/gpl.html
+Template: blankslate
+
+BlankSlate WordPress Theme © 2011-2021 TidyThemes
+BlankSlate is distributed under the terms of the GNU GPL
+*/
+
+:root {
+    --primary: #F0EDCC;
+    --primary-hover: #b9b494;
+    --secondary: #02343F;
+    --secondary-hover: #0a4a5e;
+}
+
+a {
+    color: var(--secondary);
+    transition: 100ms;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-hover);
+}
+
+body {
+
+    color: var(--secondary);
+    font-family: "Poppins", "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#container {
+    flex-grow: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: .5rem 1rem;
+}
+
+#header a {
+    color: var(--primary);
+}
+
+#header a:hover {
+    color: var(--primary-hover);
+}
+
+#site-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#site-title > * {
+    font-size: 2rem;
+    color: var(--primary) !important;
+}
+#menu ul {
+    display: flex;
+}
+
+#menu .menu-item {
+    padding: 1rem;
+}
+
+/* Footer */
+#footer {
+    background-color: var(--secondary);
+    color: var(--primary);
+    text-align: center;
+    padding: 2rem;
+}
+
+#hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 3.5rem;
+}
+
+#hero .hero__heading {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__heading h1 {
+    font-size: 2.5rem;
+}
+
+.hero__heading h2 {
+    font-size: 1.25rem;
+}
+
+#hero img {
+    border: 4px solid var(--primary);
+    border-radius: 10px;
+    max-height: 300px;
+}
+
+
+
+
+
+
+
+
+
+/* Breakpoints */
+@media only screen and (max-width: 1024px) {
+    #hero img {
+        max-height: 250px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #hero img {
+        max-height: 200px;
+    }
+}
