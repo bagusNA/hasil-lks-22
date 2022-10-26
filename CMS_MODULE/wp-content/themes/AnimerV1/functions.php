@@ -1,4 +1,6 @@
 <?php
+register_nav_menu('footer-menu', "Footer Menu");
+
 add_action( 'wp_enqueue_scripts', function () {
 	$parentHandle = 'blankslate-style';
 	$theme        = wp_get_theme();
@@ -32,4 +34,3 @@ add_action( 'init', function () {
 		'top'
 	);
 } );
-

@@ -4,11 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="CMS: commit 4">
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/entry-footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/entry-summary.php" afterDir="false" />
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="CMS: commit 5">
+      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/animer-footer-socials/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/lksn-22-kalimantan-timur/CMS_MODULE/wp-content/themes/AnimerV1",
+    "last_opened_file_path": "C:/xampp/htdocs/lksn-22-kalimantan-timur/CMS_MODULE/wp-content/plugins",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -70,11 +69,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\CMS_MODULE\wp-content\plugins" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\CMS_MODULE\wp-content\themes\AnimerV1" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SPEEDTEST_MODULE\D3" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SPEEDTEST_MODULE\B1" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SPEEDTEST_MODULE\C1" />
-      <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\views\Form" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur" />
@@ -92,7 +91,7 @@
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
       <workItem from="1666660139683" duration="19337000" />
-      <workItem from="1666741601196" duration="21945000" />
+      <workItem from="1666741601196" duration="22953000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -311,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666766251891</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="CMS: commit 5">
+      <created>1666766915344</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666766915344</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +338,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Server: Initial commit" />
     <MESSAGE value="Server: commit 1" />
     <MESSAGE value="Server: commit vendor" />
     <MESSAGE value="Server: commit 3" />
@@ -357,7 +362,8 @@
     <MESSAGE value="CMS: commit 2" />
     <MESSAGE value="CMS: commit 3" />
     <MESSAGE value="CMS: commit 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="CMS: commit 4" />
+    <MESSAGE value="CMS: commit 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="CMS: commit 5" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\lksn-22-kalimantan-timur\CMS_MODULE</wordpressPath>
