@@ -4,9 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Speedtest: D3">
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Speedtest: commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
       <workItem from="1666660139683" duration="19337000" />
-      <workItem from="1666741601196" duration="9490000" />
+      <workItem from="1666741601196" duration="11338000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -252,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666751689788</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Speedtest: commit">
+      <created>1666752751375</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1666752751375</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,9 +298,9 @@
     <MESSAGE value="Speedtest: C3" />
     <MESSAGE value="Speedtest: B1" />
     <MESSAGE value="Speedtest: D1" />
-    <MESSAGE value="Speedtest: commit" />
     <MESSAGE value="Speedtest: D3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Speedtest: D3" />
+    <MESSAGE value="Speedtest: commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Speedtest: commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

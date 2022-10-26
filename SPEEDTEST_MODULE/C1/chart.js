@@ -7,14 +7,17 @@ class Chart {
         lowest: 0,
         length: 0,
         values: [],
+        unsortedValues: [],
     }
 
     yAxis = {
+        name: null,
         pointDistance: 0,
         pointWidth: 10,
     }
 
     xAxis = {
+        name: null,
         pointDistance: 0,
         pointWidth: 10,
     }
@@ -29,6 +32,11 @@ class Chart {
 
         this.canvasEl.width = this.width;
         this.canvasEl.height = this.height;
+
+        this.keys = Object.keys(this.data.rawData[0]);
+
+        this.xAxis.name = this.keys[0].charAt(0).toUpperCase() + this.keys[0].slice(1);
+        this.yAxis.name = this.keys[1].charAt(0).toUpperCase() + this.keys[1].slice(1);
 
         this.setup();
     }
@@ -47,6 +55,7 @@ class Chart {
         });
 
         this.data.length = this.data.values.length;
+        this.data.unsortedValues = structuredClone(this.data.values);
         this.data.values.sort((a, b) => (a - b));
         this.data.lowest = this.data.values[0];
         this.data.highest = this.data.values[this.data.length - 1];
@@ -63,9 +72,9 @@ class Chart {
         this.ctx.fillRect(this.padding, this.padding, 3, yLength);
 
         // Texts
-        this.ctx.fillText('Jumlah', this.padding - 10, this.padding - 10);
+        this.ctx.fillText(this.yAxis.name, this.padding - 10, this.padding - 10);
 
-        this.ctx.fillText('Tanggal', this.canvasEl.width - this.padding, this.canvasEl.height - this.padding);
+        this.ctx.fillText(this.xAxis.name, this.canvasEl.width - this.padding, this.canvasEl.height - this.padding);
 
         this.yAxis.pointDistance = yLength / 5;
 
@@ -88,7 +97,8 @@ class Chart {
         // X Axis
         this.xAxis.pointDistance = xLength / this.data.length;
 
-        this.data.values.forEach((data, index) => {
+        this.ctx.beginPath();
+        this.data.unsortedValues.forEach((data, index) => {
             const x = this.xAxis.pointDistance * ++index;
 
             this.ctx.fillRect(
@@ -102,15 +112,17 @@ class Chart {
             );
 
             // Line
-            this.ctx.beginPath();
+            this.ctx.fillStyle = 'red';
 
-            const lineY = this.canvasEl.height - this.padding + (this.data.highest - data)
-            this.ctx.moveTo(x, lineY);
+            const lineY = Math.floor(
+                (this.canvasEl.height - this.padding * 2) * ((this.data.highest - data) / this.data.highest) + this.padding * 3/2  + 4
+            );
+            this.ctx.lineTo(x, lineY);
             this.ctx.stroke();
 
+            this.ctx.fillStyle = 'black';
         });
-
-
+        this.ctx.closePath();
     }
 }
 
