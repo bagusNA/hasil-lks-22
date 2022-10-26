@@ -9,6 +9,16 @@ class Chart {
         values: [],
     }
 
+    yAxis = {
+        pointDistance: 0,
+        pointWidth: 10,
+    }
+
+    xAxis = {
+        pointDistance: 0,
+        pointWidth: 10,
+    }
+
     padding = 40;
 
     constructor({ title, data, canvasEl }) {
@@ -57,11 +67,50 @@ class Chart {
 
         this.ctx.fillText('Tanggal', this.canvasEl.width - this.padding, this.canvasEl.height - this.padding);
 
-        // Line
-        for (let i = 0; i < 5; i++) {
-            const x = yLength / i; + 1;
-            this.ctx.fillRect()
+        this.yAxis.pointDistance = yLength / 5;
+
+        // Line Y Axis
+        for (let i = 1; i <= 5; i++) {
+            const y = this.yAxis.pointDistance * i;
+            this.ctx.fillRect(
+                this.padding - this.yAxis.pointWidth, y,
+                this.yAxis.pointWidth, 2
+            );
+
+            const value = Math.floor(this.data.highest / 5 * (6 - i));
+            this.ctx.fillText(
+                value.toString(),
+                this.padding - this.yAxis.pointWidth - 5, y -5,
+            )
         }
+
+
+        // X Axis
+        this.xAxis.pointDistance = xLength / this.data.length;
+
+        this.data.values.forEach((data, index) => {
+            const x = this.xAxis.pointDistance * ++index;
+
+            this.ctx.fillRect(
+                x, this.canvasEl.height - this.padding,
+                2, this.xAxis.pointWidth
+            );
+
+            this.ctx.fillText(
+                index.toString(),
+                x - 5,  this.canvasEl.height - this.padding + 25,
+            );
+
+            // Line
+            this.ctx.beginPath();
+
+            const lineY = this.canvasEl.height - this.padding + (this.data.highest - data)
+            this.ctx.moveTo(x, lineY);
+            this.ctx.stroke();
+
+        });
+
+
     }
 }
 
