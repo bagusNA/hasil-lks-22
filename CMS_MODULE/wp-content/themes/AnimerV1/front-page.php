@@ -21,7 +21,7 @@
     ?>
 
     <div class="recommended">
-        <h2>Recommended</h2>
+        <h2>Recent Anime</h2>
         <div id="recommended-list">
 		    <?php while($query->have_posts()): $query->the_post(); ?>
                 <div class="recommended__item">

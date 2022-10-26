@@ -4,383 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="CMS: commit 7">
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/aiowps_backups/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/aiowps_backups/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/admin-common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/admin-common.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/admin-metabox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/admin-metabox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/admin-widget-settings.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/admin-widget-settings.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/images/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/images/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/images/mascot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/images/mascot@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/css/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/icons.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/monsterinsights.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/monsterinsights.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/monsterinsights.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/fonts/monsterinsights.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/gutenberg/css/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/gutenberg/js/editor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/down-green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/down-green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/down@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/exactmetrics-badge-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/exactmetrics-badge-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/mascot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/monsterinsights-badge-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/monsterinsights-badge-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-all-in-one-seo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-edd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-om.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-pushengage.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-seedprod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-smash-balloon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-smtp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-trust-pulse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/plugin-wpforms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/pluign-rafflepress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/question-mark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/rafflepress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/restricted.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/seedprod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/trustpulse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/up-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/up-red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/up@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/upsell/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/upsell/chart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/upsell/woo-edd-upsell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/images/upsell/woo-edd-upsell.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/admin-common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/admin-common.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/admin-metabox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/admin-metabox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/admin-widget-settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/admin-widget-settings.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/popular-posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/js/popular-posts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/lib/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/assets/lib/pandora/class-am-deactivation-survey.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/api-auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/common.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/exclude-page-metabox.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/licensing/autoupdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/licensing/plugin-upgrader-legacy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/licensing/plugin-upgrader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/licensing/skin-legacy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/licensing/skin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notification-event-runner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notification-event.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-audience.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-bounce-rate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-dual-tracking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-headline-analyzer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-install-aioseo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-install-optinmonster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-install-wp-forms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-mobile-device-high-traffic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-mobile-device-low-traffic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-multiple-gtags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-returning-visitors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-to-add-more-file-extensions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-to-setup-affiliate-links.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-traffic-dropping.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-eu-traffic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-for-custom-dimensions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-for-email-summaries.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-for-events-reporting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-for-form-conversion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-for-google-optimize.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-for-post-templates.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-for-search-console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-to-pro-high-traffic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-upgrade-to-pro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-visitors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/pages/addons.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/pages/reports.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/pages/settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/pages/tools.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/reporting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/reports/abstract-report.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/reports/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/reports/overview.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/sharedcount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/uninstall.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/admin/wp-site-health.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/api-request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/capabilities.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/compatibility-check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/deprecated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/emails/class-emails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/emails/templates/body-default-plain.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/emails/templates/body-default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/emails/templates/footer-default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/emails/templates/header-default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/class-tracking-abstract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/events/class-analytics-events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/events/class-gtag-events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/events/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/frontend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/seedprod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/tracking/class-tracking-analytics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/tracking/class-tracking-gtag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/tracking/class-tracking-preview.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/tracking/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/verified-badge/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/gutenberg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/headline-tool.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/CHANGES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/examples/demo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/Autoloader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/Sentiment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/data/data.ign.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/data/data.neg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/data/data.neu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/data/data.pos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/data/data.prefix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/dictionaries/source.ign.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/dictionaries/source.neg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/dictionaries/source.neu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/dictionaries/source.pos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/PHPInsight/dictionaries/source.prefix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/results-error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/register-scripts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/install.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/measurement-protocol-v4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/measurement-protocol.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/popular-posts/class-popular-posts-themes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/includes/popular-posts/class-popular-posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/languages/google-analytics-for-wordpress.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/languages/gutenberg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/languages/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/languages/vue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/img/mi-dw-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/img/mi-dw-cog@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/chunk-common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/chunk-common.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/chunk-vendors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/chunk-vendors.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/frontend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/frontend.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/reports.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/settings.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/settings.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/widget.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/widget.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/wizard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/wizard.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/icons.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/lato-bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/lato-bold-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/lato-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/lato-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/text-security-disc.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/text-security-disc.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/text-security-disc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/about-icon-addons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/about-icon-check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/about-icon-connect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/about-icon-ecommerce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/about-icon-gdpr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/about-icon-guide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/about-team.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/affiliates-promo-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-11.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-client-logo-9.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-screen-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/aioseo-screen-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/badge-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/badge-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/bg-dimensions@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/bg-ecommerce@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/bg-forms@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/bg-publisher@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/bg-queries@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/bg-realtime@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/bg-sitespeed@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/bullet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/charlie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/charlie2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/chris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/confetti-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/easy-digital-downloads.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/ecommerce-report.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-advancedcoupons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-aioseo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-constantcontact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-easyaffiliate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-edd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-guide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-info.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-memberpress.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-mi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-optinmonster.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-prettylinks.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-pushengage.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-rafflepress.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-searchwp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-seedprod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-semrush.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-smashballoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-thirstyaffiliates.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/icon-wpforms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/logo-MonsterInsights.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/logo-MonsterInsights@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/map-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/memberpress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/mi-and-pl-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/mi-onboarding-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/monsterinsights-aioseo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/monsterinsights-report-ecommerce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/popular-products-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/popular-products-browser.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/pretty-links-logo-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/reports-upsell-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/site-speed-blur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/syed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/testimonial-avatar-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/testimonial-avatar.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-preview-beta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-preview-image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-preview-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-products-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-products-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-products-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-products-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-products-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-products-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-products-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-widget-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-widget-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-widget-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-widget-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-widget-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-widget-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-widget-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/theme-widget-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/welcome-mascot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/welcome-video-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/woo-insights-hero-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/woocommerce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/img/wpforms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/chunk-common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/chunk-frontend-vendors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/chunk-vendors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/frontend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/dashboard-widget.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/metaboxes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/onboarding-wizard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/reports/report-dimensions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/reports/report-ecommerce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/reports/report-forms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/reports/report-publisher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/reports/report-queries.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/reports/report-realtime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/reports/report-year-in-review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/tools.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/assets/css/user-journey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/assets/img/Frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/assets/img/user-journey-backdrop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/init.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/providers/class-abstract-lite-metabox.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/providers/edd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/providers/givewp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/providers/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/providers/lifterlms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/providers/memberpress.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/providers/restrict-content-pro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/user-journey/providers/woocommerce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/welcome.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/admin/wp-site-health.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/gutenberg/blocks/blocks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/gutenberg/frontend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/license-compat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/load.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/popular-posts/class-popular-posts-ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/popular-posts/class-popular-posts-cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/popular-posts/class-popular-posts-inline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/popular-posts/class-popular-posts-widget-sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/includes/popular-posts/class-popular-posts-widget.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/lite/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/google-analytics-for-wordpress/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/animer-footer-socials/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="CMS: commit 8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -395,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -463,7 +87,7 @@
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
       <workItem from="1666660139683" duration="19337000" />
-      <workItem from="1666741601196" duration="24128000" />
+      <workItem from="1666741601196" duration="24495000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -703,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666768828354</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="CMS: commit 8">
+      <created>1666768968246</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1666768968246</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +355,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Server: commit 3" />
     <MESSAGE value="Server: commit 4" />
     <MESSAGE value="Server: commit 5" />
     <MESSAGE value="Server: commit 6" />
@@ -749,7 +379,8 @@
     <MESSAGE value="CMS: commit 5" />
     <MESSAGE value="CMS: commit 6" />
     <MESSAGE value="CMS: commit 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="CMS: commit 7" />
+    <MESSAGE value="CMS: commit 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="CMS: commit 8" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\lksn-22-kalimantan-timur\CMS_MODULE</wordpressPath>
