@@ -4,8 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Speedtest: D1">
-      <change afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/D2/index.php" afterDir="false" />
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Speedtest: commit">
+      <change afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/D3/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/lksn-22-kalimantan-timur/SPEEDTEST_MODULE/B1",
+    "last_opened_file_path": "C:/xampp/htdocs/lksn-22-kalimantan-timur/SPEEDTEST_MODULE/D3",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -61,11 +61,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SPEEDTEST_MODULE\D3" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SPEEDTEST_MODULE\B1" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SPEEDTEST_MODULE\C1" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\views\Form" />
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\helpers" />
-      <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\lksn-22-kalimantan-timur\SERVER_MODULE\frontend\src\views\Form" />
@@ -82,7 +82,7 @@
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
       <workItem from="1666660139683" duration="19337000" />
-      <workItem from="1666741601196" duration="8182000" />
+      <workItem from="1666741601196" duration="8821000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666750051212</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Speedtest: commit">
+      <created>1666750983823</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666750983823</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +283,8 @@
     <MESSAGE value="Speedtest: C3" />
     <MESSAGE value="Speedtest: B1" />
     <MESSAGE value="Speedtest: D1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Speedtest: D1" />
+    <MESSAGE value="Speedtest: commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Speedtest: commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
