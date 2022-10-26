@@ -21,13 +21,13 @@ BlankSlate is distributed under the terms of the GNU GPL
 }
 
 a {
-    color: var(--secondary);
+    color: var(--primary);
     transition: 100ms;
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--secondary-hover);
+    color: var(--primary-hover);
 }
 
 body {

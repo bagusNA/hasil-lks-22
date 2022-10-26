@@ -8,10 +8,6 @@
                 </div>
                 <img src="<?php the_post_thumbnail_url('large') ?>" alt="">
             </div>
-
-<!--            <header class="header">-->
-<!--                <h1 class="entry-title" itemprop="name">--><?php //the_title(); ?><!--</h1> --><?php //edit_post_link(); ?>
-<!--            </header>-->
         <?php endwhile; endif; ?>
     </main>
 
@@ -30,7 +26,7 @@
 		    <?php while($query->have_posts()): $query->the_post(); ?>
                 <div class="recommended__item">
                     <h3><?php the_title(); ?></h3>
-                    <a href="">
+                    <a href="<?php the_permalink(); ?>">
                         <img src="<?php the_post_thumbnail_url('thumbnail'); ?>"
                              alt="<?php the_title(); ?>"
                         >

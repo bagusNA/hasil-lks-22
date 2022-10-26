@@ -4,7 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="CMS: commit">
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="CMS: commit 2">
+      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/plugins/animer-custom-post-type/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/entry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CMS_MODULE/wp-content/themes/AnimerV1/style.css" afterDir="false" />
@@ -91,7 +94,7 @@
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
       <workItem from="1666660139683" duration="19337000" />
-      <workItem from="1666741601196" duration="19475000" />
+      <workItem from="1666741601196" duration="20448000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -289,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666762618856</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="CMS: commit 2">
+      <created>1666764231925</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1666764231925</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +342,8 @@
     <MESSAGE value="Speedtest: C1" />
     <MESSAGE value="Speedtest: A1" />
     <MESSAGE value="CMS: commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="CMS: commit" />
+    <MESSAGE value="CMS: commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="CMS: commit 2" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\lksn-22-kalimantan-timur\CMS_MODULE</wordpressPath>
