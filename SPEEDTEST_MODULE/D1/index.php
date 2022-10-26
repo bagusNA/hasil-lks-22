@@ -1,3 +1,12 @@
+<?php
+if (isset($_GET['lang'])) {
+    $lang = $_GET['lang'];
+
+    $langFile = file_get_contents("lang/" . $lang . "_" . strtoupper($lang) . ".json");
+    $langJson = json_decode($langFile, true);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,17 +23,19 @@
           <h1>I18N</h1>
         </div>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Register</a></li>
-          <li><a href="#">Login</a></li>
+          <li><a href="#"><?= (isset($langJson)) ? $langJson['home'] : 'Home' ?></a></li>
+          <li><a href="#"><?= (isset($langJson)) ? $langJson['about_us'] : 'About Us' ?></a></li>
+          <li><a href="#"><?= (isset($langJson)) ? $langJson['contact_us'] : 'Contact Us' ?></a></li>
+          <li><a href="#"><?= (isset($langJson)) ? $langJson['register'] : 'Register' ?></a></li>
+          <li><a href="#"><?= (isset($langJson)) ? $langJson['login'] : 'Login' ?></a></li>
           <li class="language-form">
-            <select name="lang" id="lang">
-              <option selected>English</option>
-              <option>Indonesia</option>
-              <option>Dutch</option>
-            </select>
+            <form action="#">
+              <select name="lang" id="lang" onchange="this.form.submit()">
+                <option value="en">English</option>
+                <option value="id">Indonesia</option>
+                <option value="nl">Dutch</option>
+              </select>
+            </form>
           </li>
         </ul>
       </div>
@@ -123,7 +134,7 @@
 
     <footer>
       <div class="container">
-        <div class="copyright">Copyright &copy; 2022</div>
+        <div class="copyright"><?= (isset($langJson)) ? $langJson['copyright'] : 'Copyright' ?> &copy; 2022</div>
       </div>
     </footer>
   </body>

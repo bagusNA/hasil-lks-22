@@ -4,14 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Speedtest: C3">
-      <change afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/B1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/B1/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/style.css" afterDir="false" />
+    <list default="true" id="634a214f-67d1-4e2d-8abe-fa3815e4462c" name="Changes" comment="Speedtest: B1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/C1/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPEEDTEST_MODULE/D1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SPEEDTEST_MODULE/D1/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +82,7 @@
       <updated>1666660112191</updated>
       <workItem from="1666660113565" duration="13000" />
       <workItem from="1666660139683" duration="19337000" />
-      <workItem from="1666741601196" duration="6293000" />
+      <workItem from="1666741601196" duration="7252000" />
     </task>
     <task id="LOCAL-00001" summary="Server: Initial commit">
       <created>1666663168199</created>
@@ -229,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666747242984</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Speedtest: B1">
+      <created>1666749152497</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666749152497</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +267,8 @@
     <MESSAGE value="Server: final commit" />
     <MESSAGE value="Server: rename dist ke build" />
     <MESSAGE value="Speedtest: C3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Speedtest: C3" />
+    <MESSAGE value="Speedtest: B1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Speedtest: B1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
