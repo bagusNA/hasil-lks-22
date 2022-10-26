@@ -209,7 +209,12 @@ h2.entry-title {
     padding-left: 2rem;
 }
 
-
+#menu-footer-menu {
+    display: flex;
+    gap: 0 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
 
 
 
