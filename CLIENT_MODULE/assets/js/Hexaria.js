@@ -17,6 +17,8 @@ export class Hexaria {
         selectedGrids: [],
         currentSelectedGrid: null,
         hoverGrid: [],
+        difficulty: 'easy',
+        mode: 'multiplayer',
     }
 
     player = {
@@ -214,6 +216,15 @@ export class Hexaria {
         this.scoreEl.playerTwo.innerHTML = this.score.playerTwo;
     }
 
+    // Game state
+    play({ mode, playerName, difficulty }) {
+        this.game.mode = mode;
+        this.player.playerOneName = playerName.one;
+        this.player.playerTwoName = playerName.two;
+        this.game.difficulty = difficulty;
+    }
+
+    // Document events
     events() {
         this.onHover();
         this.onClick();
@@ -238,6 +249,7 @@ export class Hexaria {
         });
     }
 
+    // Utilities
     randomInt(max, min) {
         return Math.floor(Math.random() * (max - min)) + min;
     }

@@ -32,6 +32,23 @@ button:hover {
     cursor: pointer;
 }
 
+input {
+    all: unset;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 5px;
+    padding: .75rem 1rem;
+    transition: 150ms;
+    border: 2px solid var(--secondary);
+    text-align: center;
+}
+
+input:focus {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -93,6 +110,22 @@ button:hover {
     margin-top: 1rem;
 }
 
-#dialog-start {
+#dialog-start, #dialog-diff {
     display: none;
+}
+
+.players-name {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem 0;
+}
+
+.start-wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+
+#btn-start {
+    margin-top: 2rem;
 }
