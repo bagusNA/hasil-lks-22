@@ -54,7 +54,7 @@ export class Hexaria {
     angle = 2 * Math.PI / 6;
 
 
-    constructor({ canvas, height, width, scoreEl }) {
+    constructor({ canvas, height, width, scoreEl, playerNameEl }) {
         this.canvas = canvas;
         this.ctx = this.canvas.getContext('2d');
 
@@ -62,6 +62,7 @@ export class Hexaria {
         this.canvas.width = width;
 
         this.scoreEl = scoreEl;
+        this.playerNameEl = playerNameEl;
     }
 
     init() {
@@ -173,14 +174,33 @@ export class Hexaria {
 
                         this.audio.play();
 
-                        // const affectedGrid = [
-                        //     rowIndex !== 0 ? this.game.grid[rowIndex - 1][colIndex] : null,
-                        //     rowIndex !== 0 ? this.game.grid[rowIndex - 1][colIndex] : null,
-                        //     rowIndex !== 0 ? this.game.grid[rowIndex - 1][colIndex] : null,
-                        //     this.game.grid[rowIndex - 1][colIndex + 1],
-                        //     this.game.grid[rowIndex + 1][colIndex],
-                        //
-                        // ]
+                        const affectedGrid = [
+                            rowIndex !== 0 && colIndex !== 0
+                                ? this.game.grid[rowIndex - 1][colIndex - 1] : null,
+                            rowIndex !== 0
+                                ? this.game.grid[rowIndex - 1][colIndex] : null,
+                            colIndex !== 0
+                                ? this.game.grid[rowIndex][colIndex - 1] : null,
+                            rowIndex - 1 !== this.game.grid.length && colIndex !== this.game.grid[rowIndex].length
+                                ? this.game.grid[rowIndex + 2][colIndex + 1] : null,
+                            rowIndex - 1 !== this.game.grid.length
+                                ? this.game.grid[rowIndex + 2][colIndex] : null,
+                            colIndex !== this.game.grid[rowIndex].length
+                                ? this.game.grid[rowIndex][colIndex + 1] : null,
+                        ]
+
+                        affectedGrid.forEach(affGrid => {
+                            if (!affGrid) return;
+
+                            if (affGrid.occupied === this.player.currentTurn)
+                                affGrid.value += 1;
+                            else if (grid.value >= affGrid.value) {
+                                if (affGrid.occupied === 1 && this.player.currentTurn === 2)
+                                    affGrid.occupied = 2;
+                                else if (affGrid.occupied === 2 && this.player.currentTurn === 1)
+                                    affGrid.occupied = 1;
+                            }
+                        });
 
                         // Game logic
                         if (grid.occupied !== -1) {
@@ -242,25 +262,17 @@ export class Hexaria {
 
         this.status.started = true;
 
+        this.playerNameEl.playerOne.innerHTML = this.player.playerOneName;
+        this.playerNameEl.playerTwo.innerHTML = this.player.playerTwoName;
+
+        if (this.game.difficulty === 'easy')
+            this.game.disabledHexaCount = 4;
+        else if (this.game.difficulty === 'medium')
+            this.game.disabledHexaCount = 6;
+        else if (this.game.difficulty === 'hard')
+            this.game.disabledHexaCount = 8;
+
         this.disableGrid();
-
-        console.log(this.player)
-    }
-
-    // Set difficulty
-    setEasy() {
-        this.game.difficulty = 'easy';
-        this.game.disabledHexaCount = 4;
-    }
-
-    setMedium() {
-        this.game.difficulty = 'medium';
-        this.game.disabledHexaCount = 6;
-    }
-
-    setHard() {
-        this.game.difficulty = 'hard';
-        this.game.disabledHexaCount = 8;
     }
 
     // Document events

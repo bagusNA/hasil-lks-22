@@ -72,6 +72,7 @@ input:focus {
 }
 
 #leaderboard {
+    display: none;
     width: 300px;
     background-color: var(--primary);
     color: var(--secondary);
@@ -80,11 +81,17 @@ input:focus {
 }
 
 #score {
+    display: none;
     width: 300px;
     background-color: var(--primary);
     color: var(--secondary);
     border-radius: 5px;
+}
 
+#score > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
 }
 
 #dialog {
@@ -124,7 +131,6 @@ input:focus {
     display: grid;
     grid-template-rows: 1fr;
 }
-
 
 #btn-start {
     margin-top: 2rem;

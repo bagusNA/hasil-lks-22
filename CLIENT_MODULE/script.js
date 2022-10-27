@@ -1,6 +1,8 @@
 import {Hexaria} from "./assets/js/Hexaria.js";
 
 const gameEl = document.getElementById('game');
+const scoreContainer = document.getElementById('score');
+const leaderboard = document.getElementById('leaderboard');
 
 const btn = {
     modeMp: document.getElementById('mode-mp'),
@@ -71,6 +73,8 @@ const startAction = () => {
 
     dialog.container.style.display = 'none';
     dialog.start.style.display = 'none';
+    scoreContainer.style.display = 'block';
+    leaderboard.style.display = 'block';
 
     hexa.play({
         mode: mode,
