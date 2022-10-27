@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #EEEEEE;
+    --secondary: #000022;
+}
+
+body {
+    color: var(--primary);
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--secondary);
+}
+
+#game-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+#game {
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+}
+
+#leaderboard {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 5px;
+    padding: 2rem 1rem;
+}
+
+
+#dialog {
+    display: none;
+    position: absolute;
+}
