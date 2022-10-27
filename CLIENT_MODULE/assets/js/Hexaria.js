@@ -40,7 +40,7 @@ export class Hexaria {
         this.events();
     }
 
-    drawHexagon(xGrid, yGrid, event) {
+    drawHexagon(grid, xGrid, yGrid, event) {
         const isEverySecondRow = yGrid % 2 ? true : false;
         const offsetX = isEverySecondRow ? this.grid.radius / 10 - 2 : 0;
 
@@ -60,14 +60,39 @@ export class Hexaria {
 
         path.closePath();
         this.ctx.stroke(path);
+        event(path);
 
-        if (xGrid === this.game.currentSelectedGrid.x &&
-            yGrid === this.game.currentSelectedGrid.y) {
 
+        // if (xGrid === this.game.grid[xGrid].x &&
+        //     yGrid === this.game.grid[xGrid].y
+        // ) {
+        //     if (this.game.currentSelectedGrid.player === 1)
+        //         this.ctx.fillStyle = this.color.red;
+        //     else if (this.game.currentSelectedGrid.player === 2)
+        //         this.ctx.fillStyle = this.color.blue;
+        //
+        //     this.ctx.fill();
+        // }
+
+        // this.ctx.fillStyle = this.color.white;
+        // this.ctx.fillText(
+        //     grid.value.toString(),
+        //     (xGrid * this.grid.radius * 2 + offsetX),
+        //     (yGrid * this.grid.radius * 2 + offsetY)
+        // )
+
+        if (grid.occupied !== -1) {
+           if (grid.occupied === 1)
+               this.ctx.fillStyle = this.color.red;
+           else if (grid.occupied === 2)
+               this.ctx.fillStyle = this.color.blue;
+
+           this.ctx.fill(path);
         }
 
-        event(path);
     }
+
+
 
     drawGrid() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -78,11 +103,22 @@ export class Hexaria {
 
             this.game.grid[rowIndex] = Array.apply(null, Array(this.grid.height));
             this.game.grid[rowIndex].forEach((col, colIndex) => {
-                this.game.grid[rowIndex][colIndex] = {
-                    occupied: -1,
-                };
+                // let occupied = -1;
+                // if (this.game.currentSelectedGrid &&
+                //     this.game.currentSelectedGrid.x === rowIndex &&
+                //     this.game.currentSelectedGrid.y === colIndex) {
+                //     occupied = this.game.currentSelectedGrid.player;
+                // }
+
+                if (this.game.grid[rowIndex][colIndex]) {
+                    this.game.grid[rowIndex][colIndex] = {
+                        occupied: -1,
+                        value: 10
+                    };
+                }
 
                 this.drawHexagon(
+                    this.game.grid[rowIndex][colIndex],
                     rowIndex + 1, colIndex + 1,
                     (path) => {
                         if (!this.ctx.isPointInPath(path, this.mouse.x, this.mouse.y)) return;
@@ -97,7 +133,9 @@ export class Hexaria {
                             y: colIndex
                         };
 
-                        this.game.selectedGrids.push(this.game.currentSelectedGrid);
+                        this.game.grid[rowIndex][colIndex].occupied = 1;
+
+                        // this.game.selectedGrids.push(this.game.currentSelectedGrid);
 
                         this.mouse.clicked = false;
                 });
@@ -124,7 +162,7 @@ export class Hexaria {
     onClick() {
         document.addEventListener('mousedown', () => {
             this.mouse.clicked = true;
-            console.log(this.game.selectedGrid)
+            console.log(this.game.grid)
         });
     }
 
