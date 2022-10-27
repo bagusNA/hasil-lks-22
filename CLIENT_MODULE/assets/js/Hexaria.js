@@ -181,11 +181,11 @@ export class Hexaria {
                                 ? this.game.grid[rowIndex - 1][colIndex] : null,
                             colIndex !== 0
                                 ? this.game.grid[rowIndex][colIndex - 1] : null,
-                            rowIndex - 1 !== this.game.grid.length && colIndex !== this.game.grid[rowIndex].length
-                                ? this.game.grid[rowIndex + 2][colIndex + 1] : null,
-                            rowIndex - 1 !== this.game.grid.length
-                                ? this.game.grid[rowIndex + 2][colIndex] : null,
-                            colIndex !== this.game.grid[rowIndex].length
+                            rowIndex - 1 !== this.game.grid[rowIndex].length && colIndex !== this.game.grid.length
+                                ? this.game.grid[rowIndex + 1][colIndex + 1] : null,
+                            rowIndex - 1 !== this.game.grid[rowIndex].length
+                                ? this.game.grid[rowIndex + 1][colIndex] : null,
+                            colIndex !== this.game.grid.length
                                 ? this.game.grid[rowIndex][colIndex + 1] : null,
                         ]
 
@@ -194,25 +194,13 @@ export class Hexaria {
 
                             if (affGrid.occupied === this.player.currentTurn)
                                 affGrid.value += 1;
-                            else if (grid.value >= affGrid.value) {
+                            else if (grid.value > affGrid.value) {
                                 if (affGrid.occupied === 1 && this.player.currentTurn === 2)
                                     affGrid.occupied = 2;
                                 else if (affGrid.occupied === 2 && this.player.currentTurn === 1)
                                     affGrid.occupied = 1;
                             }
                         });
-
-                        // Game logic
-                        if (grid.occupied !== -1) {
-
-                            // if ( aboveGrid.occupied === grid.occupied){
-
-                            // }
-
-                        }
-                        // ---
-
-
 
                         this.game.currentSelectedGrid = {
                             player: this.player.currentTurn,
