@@ -6,11 +6,22 @@ export class Hexaria {
     }
 
     color = {
-        border: 'white'
+        border: 'white',
+        red: '#b43232',
+        blue: '#4f4fda'
     }
 
     game = {
-        grid: []
+        grid: [],
+        selectedGrids: [],
+        currentSelectedGrid: null,
+        hoverGrid: [],
+    }
+
+    mouse = {
+        x: 0,
+        y: 0,
+        clicked: true,
     }
 
     angle = 2 * Math.PI / 6;
@@ -22,24 +33,14 @@ export class Hexaria {
 
         this.canvas.height = height;
         this.canvas.width = width;
-
     }
 
     init() {
         this.drawGrid();
-        // this.testDrawHexa(10, 20);
-        // this.testDrawGrid(
-        // this.testDrawGrid(this.grid.radius * 16 , 500)
-        //     this.grid.width * this.grid.radius * 2,
-        //     this.grid.width * this.grid.radius * 2
-        // );
-
-        console.log(this.grid.width * this.grid.radius * 2,
-            this.grid.width * this.grid.radius * 2
-        )
+        this.events();
     }
 
-    drawHexagon(xGrid, yGrid) {
+    drawHexagon(xGrid, yGrid, event) {
         const isEverySecondRow = yGrid % 2 ? true : false;
         const offsetX = isEverySecondRow ? this.grid.radius / 10 - 2 : 0;
 
@@ -47,51 +48,85 @@ export class Hexaria {
         const offsetY = isEverySecondCol ? this.grid.radius : 0;
 
         this.ctx.strokeStyle = this.color.border;
-        this.ctx.beginPath();
+
+        const path = new Path2D();
 
         for (let i = 0; i < 6; i++) {
-            this.ctx.lineTo(
+            path.lineTo(
                 (xGrid * this.grid.radius * 2 + offsetX) + this.grid.radius * Math.cos(this.angle * i),
                 (yGrid * this.grid.radius * 2 + offsetY) + this.grid.radius * Math.sin(this.angle * i)
             )
         }
 
-        this.ctx.closePath();
-        this.ctx.stroke();
+        path.closePath();
+        this.ctx.stroke(path);
+
+        if (xGrid === this.game.currentSelectedGrid.x &&
+            yGrid === this.game.currentSelectedGrid.y) {
+
+        }
+
+        event(path);
     }
 
     drawGrid() {
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+
         this.game.grid = Array.apply(null, Array(this.grid.width));
         this.game.grid.forEach((row, index) => {
             const rowIndex = index;
 
             this.game.grid[rowIndex] = Array.apply(null, Array(this.grid.height));
             this.game.grid[rowIndex].forEach((col, colIndex) => {
-                this.game.grid[rowIndex][colIndex] = -1;
+                this.game.grid[rowIndex][colIndex] = {
+                    occupied: -1,
+                };
 
-                this.drawHexagon(rowIndex + 1, colIndex + 1);
+                this.drawHexagon(
+                    rowIndex + 1, colIndex + 1,
+                    (path) => {
+                        if (!this.ctx.isPointInPath(path, this.mouse.x, this.mouse.y)) return;
+
+                        this.game.hoverGrid = [rowIndex, colIndex];
+
+                        if (!this.mouse.clicked) return;
+
+                        this.game.currentSelectedGrid = {
+                            player: 1,
+                            x: rowIndex,
+                            y: colIndex
+                        };
+
+                        this.game.selectedGrids.push(this.game.currentSelectedGrid);
+
+                        this.mouse.clicked = false;
+                });
             });
         });
     }
 
-    testDrawHexa(x, y) {
-        this.ctx.strokeStyle = this.color.border;
-        this.ctx.beginPath();
-        for (let i = 0; i < 6; i++) {
-            this.ctx.lineTo(
-                x + this.grid.radius * Math.cos(this.angle * i),
-                y + this.grid.radius * Math.sin(this.angle * i)
-            );
-        }
-        this.ctx.closePath();
-        this.ctx.stroke();
+    events() {
+        this.onHover();
+        this.onClick();
     }
 
-    testDrawGrid(width, height) {
-        for (let y = this.grid.radius; y + this.grid.radius * Math.sin(this.angle) < height; y += this.grid.radius * Math.sin(this.angle)) {
-            for (let x = this.grid.radius, j = 0; x + this.grid.radius * (1 + Math.cos(this.angle)) < width; x += this.grid.radius * (1 + Math.cos(this.angle)), y += (-1) ** j++ * this.grid.radius * Math.sin(this.angle)) {
-                this.testDrawHexa(x, y);
-            }
-        }
+    onHover() {
+        document.addEventListener('mousemove', (ev) => {
+            const rect = this.canvas.getBoundingClientRect();
+
+            this.mouse.x = ev.clientX - rect.left;
+            this.mouse.y = ev.clientY - rect.top;
+
+            this.drawGrid();
+        });
     }
+
+    onClick() {
+        document.addEventListener('mousedown', () => {
+            this.mouse.clicked = true;
+            console.log(this.game.selectedGrid)
+        });
+    }
+
+
 }

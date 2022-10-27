@@ -9,8 +9,8 @@ const dialog = {
 
 const hexa = new Hexaria({
     canvas: gameEl,
-    width: 800,
-    height: 600,
+    width: 620,
+    height: 530,
 });
 
 hexa.init();

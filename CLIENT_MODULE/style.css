@@ -36,6 +36,8 @@ body {
 }
 
 #leaderboard {
+    display: none;
+
     background-color: var(--primary);
     color: var(--secondary);
     border-radius: 5px;
