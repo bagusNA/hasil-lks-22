@@ -8,7 +8,8 @@ export class Hexaria {
     color = {
         border: 'white',
         red: '#b43232',
-        blue: '#4f4fda'
+        blue: '#4f4fda',
+        text: 'white'
     }
 
     game = {
@@ -18,10 +19,21 @@ export class Hexaria {
         hoverGrid: [],
     }
 
+    player = {
+        currentTurn: 1,
+        firstPlayerName: null,
+        secondPlayerName: null,
+        isAgainstBot: false,
+    }
+
+    hexa = {
+        nextTurnValue: 0,
+    }
+
     mouse = {
         x: 0,
         y: 0,
-        clicked: true,
+        clicked: false,
     }
 
     angle = 2 * Math.PI / 6;
@@ -36,6 +48,7 @@ export class Hexaria {
     }
 
     init() {
+        this.initGrid();
         this.drawGrid();
         this.events();
     }
@@ -74,13 +87,6 @@ export class Hexaria {
         //     this.ctx.fill();
         // }
 
-        // this.ctx.fillStyle = this.color.white;
-        // this.ctx.fillText(
-        //     grid.value.toString(),
-        //     (xGrid * this.grid.radius * 2 + offsetX),
-        //     (yGrid * this.grid.radius * 2 + offsetY)
-        // )
-
         if (grid.occupied !== -1) {
            if (grid.occupied === 1)
                this.ctx.fillStyle = this.color.red;
@@ -90,18 +96,37 @@ export class Hexaria {
            this.ctx.fill(path);
         }
 
+        this.ctx.fillStyle = this.color.text;
+        this.ctx.font = '14px sans-serif';
+        this.ctx.fillText(
+            this.hexa.nextTurnValue.toString(),
+            (xGrid * this.grid.radius * 2 + offsetX - 6),
+            (yGrid * this.grid.radius * 2 + offsetY + 5)
+        );
+
     }
 
-
-
-    drawGrid() {
-        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
-
+    initGrid() {
         this.game.grid = Array.apply(null, Array(this.grid.width));
         this.game.grid.forEach((row, index) => {
             const rowIndex = index;
 
-            this.game.grid[rowIndex] = Array.apply(null, Array(this.grid.height));
+            this.game.grid[index] = Array.apply(null, Array(this.grid.height));
+
+            this.game.grid[rowIndex].forEach((col, colIndex) => {
+                this.game.grid[rowIndex][colIndex] = {
+                    occupied: -1,
+                    value: 10
+                };
+            });
+        });
+    }
+
+    drawGrid() {
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+
+        this.game.grid.forEach((row, index) => {
+            const rowIndex = index;
             this.game.grid[rowIndex].forEach((col, colIndex) => {
                 // let occupied = -1;
                 // if (this.game.currentSelectedGrid &&
@@ -109,13 +134,6 @@ export class Hexaria {
                 //     this.game.currentSelectedGrid.y === colIndex) {
                 //     occupied = this.game.currentSelectedGrid.player;
                 // }
-
-                if (this.game.grid[rowIndex][colIndex]) {
-                    this.game.grid[rowIndex][colIndex] = {
-                        occupied: -1,
-                        value: 10
-                    };
-                }
 
                 this.drawHexagon(
                     this.game.grid[rowIndex][colIndex],
@@ -128,19 +146,25 @@ export class Hexaria {
                         if (!this.mouse.clicked) return;
 
                         this.game.currentSelectedGrid = {
-                            player: 1,
+                            player: this.player.currentTurn,
                             x: rowIndex,
                             y: colIndex
                         };
 
-                        this.game.grid[rowIndex][colIndex].occupied = 1;
-
-                        // this.game.selectedGrids.push(this.game.currentSelectedGrid);
+                        this.game.grid[rowIndex][colIndex].occupied = this.game.currentSelectedGrid.player;
 
                         this.mouse.clicked = false;
                 });
             });
         });
+    }
+
+    nextTurn() {
+        this.hexa.nextTurnValue = this.randomInt(20, 1);
+        if (this.player.currentTurn === 1)
+            this.player.currentTurn = 2;
+        else if (this.player.currentTurn === 2)
+            this.player.currentTurn = 1;
     }
 
     events() {
@@ -162,9 +186,13 @@ export class Hexaria {
     onClick() {
         document.addEventListener('mousedown', () => {
             this.mouse.clicked = true;
-            console.log(this.game.grid)
+            this.drawGrid();
+            this.nextTurn();
         });
     }
 
+    randomInt(max, min) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
 
 }
