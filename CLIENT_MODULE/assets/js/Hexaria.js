@@ -44,12 +44,14 @@ export class Hexaria {
     angle = 2 * Math.PI / 6;
 
 
-    constructor({ canvas, height, width }) {
+    constructor({ canvas, height, width, scoreEl }) {
         this.canvas = canvas;
         this.ctx = this.canvas.getContext('2d');
 
         this.canvas.height = height;
         this.canvas.width = width;
+
+        this.scoreEl = scoreEl;
     }
 
     init() {
@@ -186,11 +188,13 @@ export class Hexaria {
 
                         this.game.grid[rowIndex][colIndex].occupied = this.game.currentSelectedGrid.player;
                         this.game.grid[rowIndex][colIndex].value = this.hexa.nextTurnValue;
-
-                        this.mouse.clicked = false;
                 });
             });
         });
+
+        this.mouse.clicked = false;
+
+        this.calculateScore();
     }
 
     nextTurn() {
@@ -201,9 +205,10 @@ export class Hexaria {
             this.player.currentTurn = 1;
     }
 
-    // calculateScore() {
-    //
-    // }
+    calculateScore() {
+        this.scoreEl.playerOne.innerHTML = this.score.playerOne;
+        this.scoreEl.playerTwo.innerHTML = this.score.playerTwo;
+    }
 
     events() {
         this.onHover();

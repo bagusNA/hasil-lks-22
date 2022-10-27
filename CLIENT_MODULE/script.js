@@ -7,10 +7,16 @@ const dialog = {
     gameOver: document.getElementById('dialog-gameover'),
 }
 
+const scoreEl = {
+    playerOne: document.getElementById('player-one__score'),
+    playerTwo: document.getElementById('player-two__score'),
+}
+
 const hexa = new Hexaria({
     canvas: gameEl,
     width: 620,
     height: 530,
+    scoreEl: scoreEl,
 });
 
 hexa.init();

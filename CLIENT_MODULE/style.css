@@ -36,7 +36,7 @@ body {
 }
 
 #leaderboard {
-    display: none;
+    width: 20%;
 
     background-color: var(--primary);
     color: var(--secondary);
@@ -44,6 +44,9 @@ body {
     padding: 2rem 1rem;
 }
 
+#score {
+    width: 10%;
+}
 
 #dialog {
     display: none;
