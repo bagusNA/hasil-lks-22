@@ -9,7 +9,8 @@ export class Hexaria {
         border: 'white',
         red: '#b43232',
         blue: '#4f4fda',
-        text: 'white'
+        text: 'white',
+        disabled: '#555555'
     }
 
     game = {
@@ -19,6 +20,11 @@ export class Hexaria {
         hoverGrid: [],
         difficulty: 'easy',
         mode: 'multiplayer',
+        disabledHexaCount: 4,
+    }
+
+    status = {
+        started: false,
     }
 
     player = {
@@ -103,11 +109,13 @@ export class Hexaria {
                this.ctx.fillStyle = this.color.red;
            else if (grid.occupied === 2)
                this.ctx.fillStyle = this.color.blue;
+           else if (grid.occupied === 0)
+               this.ctx.fillStyle = this.color.disabled;
 
            this.ctx.fill(path);
         }
 
-        if (grid.occupied !== -1) {
+        if (grid.occupied !== -1 && grid.occupied !== 0) {
             this.ctx.fillStyle = this.color.text;
             this.ctx.font = '14px sans-serif';
             this.ctx.fillText(
@@ -203,6 +211,15 @@ export class Hexaria {
         this.calculateScore();
     }
 
+    disableGrid() {
+        for (let i = 0; i < this.game.disabledHexaCount; i++) {
+            const randomRow = this.randomInt(this.grid.width, 1);
+            const randomCol = this.randomInt(this.grid.height, 1);
+
+            this.game.grid[randomRow][randomCol].occupied = 0;
+        }
+    }
+
     nextTurn() {
         this.hexa.nextTurnValue = this.randomInt(20, 1);
         if (this.player.currentTurn === 1)
@@ -222,6 +239,28 @@ export class Hexaria {
         this.player.playerOneName = playerName.one;
         this.player.playerTwoName = playerName.two;
         this.game.difficulty = difficulty;
+
+        this.status.started = true;
+
+        this.disableGrid();
+
+        console.log(this.player)
+    }
+
+    // Set difficulty
+    setEasy() {
+        this.game.difficulty = 'easy';
+        this.game.disabledHexaCount = 4;
+    }
+
+    setMedium() {
+        this.game.difficulty = 'medium';
+        this.game.disabledHexaCount = 6;
+    }
+
+    setHard() {
+        this.game.difficulty = 'hard';
+        this.game.disabledHexaCount = 8;
     }
 
     // Document events
@@ -243,6 +282,8 @@ export class Hexaria {
 
     onClick() {
         document.addEventListener('mousedown', () => {
+            if (!this.status.started) return;
+
             this.mouse.clicked = true;
             this.drawGrid();
             this.nextTurn();

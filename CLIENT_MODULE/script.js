@@ -46,6 +46,7 @@ const hexa = new Hexaria({
     width: 620,
     height: 530,
     scoreEl: scoreEl,
+    playerNameEl: nameEl
 });
 
 hexa.init();
@@ -65,8 +66,11 @@ const setDifficulty = (selected) => {
 }
 
 const startAction = () => {
-    playerName.one = nameInput.playerOne;
-    playerName.two = nameInput.playerTwo;
+    playerName.one = nameInput.playerOne.value;
+    playerName.two = nameInput.playerTwo.value;
+
+    dialog.container.style.display = 'none';
+    dialog.start.style.display = 'none';
 
     hexa.play({
         mode: mode,
