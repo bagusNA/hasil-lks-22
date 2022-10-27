@@ -91,19 +91,8 @@ export class Hexaria {
 
         path.closePath();
         this.ctx.stroke(path);
+
         event(path);
-
-
-        // if (xGrid === this.game.grid[xGrid].x &&
-        //     yGrid === this.game.grid[xGrid].y
-        // ) {
-        //     if (this.game.currentSelectedGrid.player === 1)
-        //         this.ctx.fillStyle = this.color.red;
-        //     else if (this.game.currentSelectedGrid.player === 2)
-        //         this.ctx.fillStyle = this.color.blue;
-        //
-        //     this.ctx.fill();
-        // }
 
         if (grid.occupied !== -1) {
            if (grid.occupied === 1)
