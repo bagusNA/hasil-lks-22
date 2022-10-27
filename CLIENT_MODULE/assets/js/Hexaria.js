@@ -32,7 +32,7 @@ export class Hexaria {
     }
 
     hexa = {
-        nextTurnValue: 0,
+        nextTurnValue: this.randomInt(20, 1),
     }
 
     mouse = {
@@ -40,6 +40,8 @@ export class Hexaria {
         y: 0,
         clicked: false,
     }
+
+    audio = new Audio('assets/audio/click.mp3');
 
     angle = 2 * Math.PI / 6;
 
@@ -125,7 +127,7 @@ export class Hexaria {
             this.game.grid[rowIndex].forEach((col, colIndex) => {
                 this.game.grid[rowIndex][colIndex] = {
                     occupied: -1,
-                    value: this.randomInt(20, 1)
+                    value: this.hexa.nextTurnValue
                 };
             });
         });
@@ -158,6 +160,8 @@ export class Hexaria {
                         this.game.hoverGrid = [rowIndex, colIndex];
 
                         if (!this.mouse.clicked) return;
+
+                        this.audio.play();
 
                         // const affectedGrid = [
                         //     rowIndex !== 0 ? this.game.grid[rowIndex - 1][colIndex] : null,

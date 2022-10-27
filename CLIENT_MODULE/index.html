@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <title>Hexaria</title>
     <link rel="stylesheet" href="style.css">
-<!--    Change this later-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--    Change this later-->
     <script src="script.js" defer type="module"></script>
 </head>
 <body>
@@ -21,20 +26,47 @@
             </div>
             <canvas id="game"></canvas>
             <div id="score">
-                <p id="player-one__score">0</p>
-                <p id="player-two__score">0</p>
+                <div>
+                    <p id="player-one__name"></p>
+                    <p id="player-two__name"></p>
+                </div>
+                <div>
+                    <p id="player-one__score">0</p>
+                    <p id="player-two__score">0</p>
+                </div>
             </div>
         </main>
     </div>
 
     <div id="dialog">
+        <div id="dialog-instructions">
+            <div class="instructions">
+                <h1>Instructions</h1>
+                <p>1. Place the hexagon</p>
+                <p>2. Player with the highest score wins</p>
+
+                <div class="mode">
+                    <button id="mode-mp">Multiplayer</button>
+                    <button id="mode-bot">Bot</button>
+                </div>
+            </div>
+        </div>
         <div id="dialog-start">
-            <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, iste.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, minus?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, fugit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, repellendus!</li>
-            </ul>
+            <h1>Play</h1>
+            <div class="dialog-section">
+                <p>Choose your difficulty</p>
+                <div class="diffs">
+                    <button id="diff-easy">Easy</button>
+                    <button id="diff-medium">Medium</button>
+                    <button id="diff-Hard">Hard</button>
+                </div>
+            </div>
+
+            <div class="dialog-section">
+                Input players name
+            </div>
+
+
         </div>
         <div id="dialog-gameover">
 
